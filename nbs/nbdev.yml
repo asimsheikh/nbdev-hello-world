@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-hello-world"
+  site-url: "https://asimsheikh.github.io/nbdev-hello-world"
+  description: "Learning to use nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/asimsheikh/nbdev-hello-world"
