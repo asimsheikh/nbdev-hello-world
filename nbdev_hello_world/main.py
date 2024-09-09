@@ -13,10 +13,13 @@ def say_hello(to):
     "Say hello to somebody"
     return f"Hello {to}!"
 
-# %% ../nbs/00_main.ipynb 5
+# %% ../nbs/00_main.ipynb 6
 def square(x):
     "Square the number x"
     return x*x
+
+# %% ../nbs/00_main.ipynb 7
+from dataclasses import dataclass
 
 # %% ../nbs/00_main.ipynb 8
 @dataclass
