@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://asimsheikh.github.io',
                 'git_url': 'https://github.com/asimsheikh/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.main': { 'nbdev_hello_world.main.User': ('main.html#user', 'nbdev_hello_world/main.py'),
+                                        'nbdev_hello_world.main.User.to_json': ('main.html#user.to_json', 'nbdev_hello_world/main.py'),
+                                        'nbdev_hello_world.main.main': ('main.html#main', 'nbdev_hello_world/main.py'),
+                                        'nbdev_hello_world.main.say_hello': ('main.html#say_hello', 'nbdev_hello_world/main.py'),
+                                        'nbdev_hello_world.main.square': ('main.html#square', 'nbdev_hello_world/main.py')}}}
